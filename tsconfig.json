@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "declaration": true,
+    "pretty": true,
+    "rootDir": "src",
+    "sourceMap": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "dist",
+    "declarationDir": "dist/types",
+    "lib": [
+      "es2018",
+      "es2019",
+      "dom"
+    ],
+    "importHelpers": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests",
+    "jest.config.ts",
+    "jest.config.*.ts"
+  ]
+}

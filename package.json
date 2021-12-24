@@ -1,0 +1,43 @@
+{
+  "name": "react-downloader",
+  "version": "0.0.1-alpha",
+  "description": "download any file from any server and data source",
+  "main": "dist/main.js",
+  "typings": "dist/types/main.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TokisakiYuu/react-downloader.git"
+  },
+  "author": "tokisakiyuu <tokisakiyuu@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TokisakiYuu/react-downloader/issues"
+  },
+  "homepage": "https://github.com/TokisakiYuu/react-downloader#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "tslib": "^2.3.1"
+  },
+  "keywords": [
+    "react",
+    "download",
+    "downloader",
+    "web",
+    "chrome",
+    "tools",
+    "blob",
+    "array",
+    "buffer",
+    "base64",
+    "file",
+    "component",
+    "hook"
+  ]
+}
