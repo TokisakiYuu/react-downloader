@@ -1,9 +1,12 @@
 {
-  "name": "react-downloader",
-  "version": "0.0.1-alpha",
+  "name": "@taalpha/react-downloader",
+  "version": "0.0.3-alpha",
   "description": "download any file from any server and data source",
   "main": "dist/main.js",
   "typings": "dist/types/main.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
