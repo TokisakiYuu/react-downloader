@@ -5,7 +5,9 @@
   "main": "dist/main.js",
   "typings": "dist/types/main.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "react": "^17.0.2",
     "tslib": "^2.3.1"
   },
