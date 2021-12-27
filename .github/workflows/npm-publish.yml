@@ -1,4 +1,4 @@
-name: Public Npm
+name: publish to npm
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    name: 'publish npm'
-    environment: npm
+    name: 'publish-worker'
+    environment: publish
     steps:
       - uses: actions/checkout@master
       - name: Install and Build
