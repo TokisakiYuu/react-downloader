@@ -1,6 +1,6 @@
 {
   "name": "@taalpha/react-downloader",
-  "version": "0.0.3-alpha",
+  "version": "0.0.4-alpha",
   "description": "download any file from any server and data source",
   "main": "dist/main.js",
   "typings": "dist/types/main.d.ts",
